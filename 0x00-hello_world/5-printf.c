@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-  *main-entry point for the program.
+  *main- this c program that prints with proper grammar
   *
-  * Return:0 if no errors, return non zero if errors
+  * Return:(0) if no errors, return non (0) if errors
   */
 int main(void)
 {

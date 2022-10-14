@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
-  *main-program entry point.
+  *main-this is the program that prfints that piece of art and more.
   *
-  *Return: 1 on success.
+  *Return:(0) if errors, and non(0) if no errors
   */
 int main(void)
 {

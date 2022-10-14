@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-  *main -is the entry point for the program.
+  *main -this the c program that printys the size.
   *
-  *Return:zero if no error, Non-zero value if errors.
+  *Return:(0) if no error, Non(0) value if errors.
   */
 int main(void)
 {
