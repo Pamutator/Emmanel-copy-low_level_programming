@@ -1,11 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdlid.h>
 #include <time.h>
+#include <stdio.h>
 /**
-  * main-assign a random number to the variable and print
+  * main - to check and see if int n is positive, negative or zero
   * Return: (0) if entry is not found
-  **/
-
+  */
 int main(void)
 {
 	int n;
@@ -15,12 +14,9 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	}
-	else if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
 	else if (n == 0)
 		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 	return (0);
 }
