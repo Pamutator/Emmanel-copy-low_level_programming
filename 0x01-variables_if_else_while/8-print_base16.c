@@ -8,7 +8,9 @@
 int main(void)
 {
 	char c;
+
 	int n;
+
 	n = 0;
 	c = 'a';
 	while (n < 10)

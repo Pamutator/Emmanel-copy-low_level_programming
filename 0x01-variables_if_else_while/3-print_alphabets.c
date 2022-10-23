@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - to write a program that prints alphabets in lower case followed by upper case
-* Return: 0
-*/
+ * main - to write a program that prints alphabets in lower case and upper case
+ * Return: 0
+ */
 int main(void)
 {
 	char n;
+
 	n = 'a';
 	while (n <= 'z')
 {
