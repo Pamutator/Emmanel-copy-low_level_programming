@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  * main - this program will assign a random number to the variable n each time it is executed.
+  * main - assign a random number to variable n each time it is executed.
   * Return:0-no error, non zero value if error
   */
 int main(void)
 {
 	int n;
 	int ld;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	ld = n % 10;
