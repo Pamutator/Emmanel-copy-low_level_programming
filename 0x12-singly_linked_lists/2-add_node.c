@@ -13,12 +13,12 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	/*list_t str;
-	str->next = head;
-
-	*head->next = str;
-
-	returns (&str);*/
+	/**
+	 *list_t str;
+	 *str->next = head;
+	 *head->next = str;
+	 *returns (&str);
+	 */
 
 
 	list_t *new;
